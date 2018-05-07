@@ -18,8 +18,8 @@ app.use(logger);
 app.use(express.static(path.join(__dirname, "client", "build")));
 
 //routes
-app.use("/issues", issueRouter);
-app.use("/comments", commentRouter);
+app.use("/api/issues", issueRouter);
+app.use("/api/comments", commentRouter);
 
 app.get("*", (req, res) => {  
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
