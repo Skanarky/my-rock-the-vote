@@ -29,15 +29,6 @@ class Header extends React.Component {
         });
     }
 
-    // handleSubmit = (event) => {
-    //     event.preventDefault();
-    // console.log(event);
-
-    // dispatch an action, that contains a type ADD_CAR + input data
-    //     editCar(index, this.state.inputs);
-    //     this.setState({ ...this.initialState, isEditing: !this.state.isEditing });
-    // }
-
     render() {
         const { username, password } = this.state.inputs;
         const { isEditing } = this.state;

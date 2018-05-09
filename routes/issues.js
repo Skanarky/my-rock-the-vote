@@ -35,7 +35,7 @@ issueRouter.route("/:id")
             res.status(200).send({ message: `Issue '${deletedIssue.title}' with id: ${req.params.id} was successfully deleted!` });
         })
     })
-    // Below not used, deletion done by filer and map in the front-end
+    // Below not used, deletion is done by filter and map in the front-end!
     // .delete((req, res) => {
     //     CommentModel.deleteMany({issueId: req.params.id},(err, deleteStatus)=>{
     //         if (err) return res.send(err);
