@@ -45,7 +45,12 @@ class IssueDisplay extends React.Component {
     }
 
     toggleComment = (event) => {
-        this.setState({ ...this.state, isCommenting: !this.state.isCommenting });
+        this.setState(prevState => {
+            return {
+                ...prevState,
+                isCommenting: !prevState.isCommenting
+            }
+        });
     }
 
     toggleCommentBack = (event) => {

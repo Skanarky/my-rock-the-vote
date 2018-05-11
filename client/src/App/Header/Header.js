@@ -14,7 +14,13 @@ class Header extends React.Component {
         this.state = this.initialState;
     };
 
-    toggleEdit = () => this.setState({ inputs: {}, isEditing: !this.state.isEditing });
+    toggleEdit = () =>
+        this.setState(prevState => {
+            return {
+                inputs: this.initialState.inputs,
+                isEditing: !prevState.isEditing
+            }
+        });
 
     handleChange = (event) => {
         // console.log(event);
