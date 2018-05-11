@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const path = require("path");
@@ -9,8 +10,8 @@ const issueRouter = require("./routes/issues.js");
 const commentRouter = require("./routes/comments.js");
 
 const app = express();
-const port = process.env.PORT ||  3001;
-const db = process.env.MONGODB_URI || "mongodb://localhost:27017/rock-vote";
+const port = process.env.PORT;
+const db = process.env.MONGODB_URI;
 
 //middleware
 app.use(bodyParser.json());
