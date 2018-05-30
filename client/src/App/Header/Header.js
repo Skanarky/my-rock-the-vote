@@ -71,7 +71,7 @@ class Header extends React.Component {
                         <Link className="noline" to="/issues"><span>Issues</span></Link>
                         <Link className="noline" to="/about"><span>About</span></Link>
                     </div>
-                    <div onClick={this.toggleEdit} className="login">
+                    <div /*onClick={this.toggleEdit}*/ className="login">
                         <div>
                             Login
                         </div>
