@@ -365,6 +365,10 @@ h6 {
 }
 
 @media (max-width: 320px) {
+    .contain {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
     nav {
         display: grid;
         grid-template-columns: 70% 30%;
