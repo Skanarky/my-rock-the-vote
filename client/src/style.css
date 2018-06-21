@@ -86,6 +86,7 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     background-image: url("./pics/picture-3.png");
+    background-repeat: round;
 }
 
 .about-wrap div {
