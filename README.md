@@ -1,5 +1,5 @@
 # Rock the Vote
-[Website](https://rock-the-vote-kutkurov.herokuapp.com/)
+[View deployed version here](https://rock-the-vote-kutkurov.herokuapp.com/)
 
 ## Table of Contents
 
@@ -19,11 +19,33 @@
 
 ## Description
 
-Full stack project.
+Fun full stack project / forum for creating debates on interesting social topics; users can vote on comments & respond.
 
-It is associated with 'Rock the Vote' project from my time at V School.
+Web page that shows a list of political issues.
 
-The requirements for the assignment can be found at [Rock the Vote](https://coursework.vschool.io/rock-the-vote-with-db/)
+Each item has a title.
+
+Each item has a description.
+
+Each item can be upvoted or downvoted.
+
+Items are ordered by upvotes (the most being at the top).
+
+Each item shows the total number of votes.
+
+Post button that allows new 'Issue' posts.
+
+Users can comment on posts (unlimited number of comments per post).
+
+Back end with the required 'models' and 'routes' so that all topics, comments, and votes are persistent.
+
+React was used for the front-end.
+
+Use Node/Express for the back-end.
+
+MongoDB and Mongoose.js used for the database and models.
+
+Ability for GET, POST, PUT, and DELETE requests.
 
 
 
@@ -31,11 +53,11 @@ The requirements for the assignment can be found at [Rock the Vote](https://cour
 
 ## Technologies Used
 
--> [git](https://git-scm.com/doc);
+-> [Git](https://git-scm.com/doc);
 
-Front end: [html5](https://www.w3.org/html/); [css](https://www.w3.org/Style/CSS/), [css grid](https://www.w3.org/TR/css-grid/), [css flex-box](https://www.w3.org/TR/css-flexbox/); [javascript](https://www.javascript.com/), [react.js](https://reactjs.org/), [redux](https://redux.js.org/), [redux-thunk](https://github.com/gaearon/redux-thunk);
+-> Front end: [html5](https://www.w3.org/html/); [css](https://www.w3.org/Style/CSS/), [css grid](https://www.w3.org/TR/css-grid/), [css flex-box](https://www.w3.org/TR/css-flexbox/); [javascript](https://www.javascript.com/), [react.js](https://reactjs.org/), [redux](https://redux.js.org/), [redux-thunk](https://github.com/gaearon/redux-thunk);
 
-Back end: [express.js](https://expressjs.com/), [node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/), [mongoose.js](http://mongoosejs.com/);
+-> Back end: [express.js](https://expressjs.com/), [node.js](https://nodejs.org/en/), [MongoDB](https://www.mongodb.com/), [mongoose.js](http://mongoosejs.com/);
 
 
 
