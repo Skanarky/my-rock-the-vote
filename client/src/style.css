@@ -209,11 +209,12 @@ img {
     background-color: rgba(100, 202, 100, 0.5);
     width: 100px;
     height: 35px;
+    cursor: default;
 }
 
 .buttons button {
     background-color: rgba(25, 202, 19, 0.8);
-    border-radius: 35%;
+    border-radius: 15px;
     width: 100px;
     height: 35px;
     font-weight: bold;
@@ -223,8 +224,6 @@ img {
 
 .buttons button:hover {
     background-color: rgba(25, 243, 18, 0.973);
-    width: 105px;
-    height: 38px;
     cursor: pointer;
 }
 
