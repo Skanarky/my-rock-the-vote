@@ -247,6 +247,8 @@ img {
     height: 35px;
     padding: 5px;
     border: 5px solid rgba(57, 59, 61, 0.24);
+    border: 5px solid rgba(57, 59, 61, 0.24);
+    border-radius: 10px;
 }
 
 ::placeholder {
