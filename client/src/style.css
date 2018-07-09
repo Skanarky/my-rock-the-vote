@@ -65,9 +65,9 @@ header {
     color: rgb(245, 245, 245);
     text-decoration-line: none;
     font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1em;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    font-size: 1.3em;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
@@ -381,7 +381,7 @@ h6 {
         grid-template-columns: 70% 30%;
     } */
     .noline {
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .about-wrap div {
         padding: 30px;
@@ -435,8 +435,8 @@ h6 {
         padding: 15px;
     }
     .noline {
-        padding-left: 40px;
-        padding-right: 40px;
+        /* padding-left: 40px;
+        padding-right: 40px; */
         font-size: 1.3em;
     }
     .fa {
@@ -458,8 +458,8 @@ h6 {
         grid-template-rows: 20% 80%;
     }
     .noline {
-        padding-left: 60px;
-        padding-right: 60px;
+        /* padding-left: 60px;
+        padding-right: 60px; */
         font-size: 1.7em;
     }
     .noline span {
@@ -517,10 +517,10 @@ h6 {
 }
 
 @media (min-width: 1350px) {
-    .noline {
+    /* .noline {
         padding-left: 90px;
         padding-right: 90px;
-    }
+    } */
     .about-wrap div {
         padding: 170px;
     }
@@ -549,8 +549,8 @@ h6 {
         padding: 30px;
     }
     .noline {
-        padding-left: 140px;
-        padding-right: 140px;
+        /* padding-left: 140px;
+        padding-right: 140px; */
         font-size: 2em;
     }
     .about-wrap div {
