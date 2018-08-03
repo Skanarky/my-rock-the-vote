@@ -64,12 +64,13 @@ header {
 .noline {
     color: rgb(245, 245, 245);
     text-decoration-line: none;
-    font-weight: bold;
     /* padding-left: 5px;
     padding-right: 5px; */
     font-size: 1.3em;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
     letter-spacing: 1px;
 }
 
